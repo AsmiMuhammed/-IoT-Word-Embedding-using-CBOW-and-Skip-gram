@@ -47,26 +47,39 @@ carefully. Firmware updates must be secure to prevent device hijacking.
 
 
 iot_word_embedding/
+
 │
 ├── corpus.py
+
 ├── preprocess.py
+
 ├── dataset_builder.py
+
 ├── utils.py
+
 ├── train_cbow.py
+
 ├── train_skipgram.py
+
 ├── similarity.py
+
 │
 ├── vocab.txt
+
 ├── cbow_dataset.csv
+
 ├── skipgram_dataset.csv
+
 ├── loss_cbow.txt
+
 ├── loss_skipgram.txt
+
 ├── embeddings_cbow.csv
+
 ├── embeddings_skipgram.csv
+
 ├── similarity_results.txt
-│
-├── README.md
-└── REPORT.pdf
+
 
 
 ---
@@ -238,4 +251,5 @@ Context window fixed at W = 4
 This project demonstrates the complete implementation of CBOW and Skip-gram
 models from scratch using Keras. Even with a small IoT-specific corpus, the
 models are able to learn meaningful word representations and capture semantic
+
 relationships between domain-specific terms.
